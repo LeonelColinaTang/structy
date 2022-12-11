@@ -19,6 +19,30 @@ const intersection = (a, b) => {
 
 };
 
+// const intersection = (a, b) => {
+//     const result = [];
+//     const setA = new Set(a);
+//     for (let item of b) {
+//         if (setA.has(item)) {
+//             result.push(item);
+//         }
+//     }
+//     return result;
+// };
+
+//   const mySet = new Set();
+//   const result = [];
+//   for(let item of a){
+//     mySet.add(item)
+//   }
+  
+//   for (let item of b) {
+//    if(mySet.has(item)){
+//      result.push(item)
+//    }
+//   }
+//   return result;
+
 intersection([4, 2, 1, 6], [3, 6, 9, 2, 10]) // -> [2,6]
 intersection([2, 4, 6], [4, 2]) // -> [2,4]
 intersection([4, 2, 1], [1, 2, 4, 6]) // -> [1,2,4]
