@@ -9,6 +9,11 @@ class Node {
 }
 
 const sumList = (head) => {
+
+    //Recursive solution
+    // if (head === null) return 0;
+    // return head.val += sumList(head.next)
+    
     let total = 0;
 
     while (head !== null) {
