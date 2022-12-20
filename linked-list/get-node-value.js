@@ -12,6 +12,12 @@ class Node {
 
 const getNodeValue = (head, index) => {
 
+    //Solved with recursion
+    // if (index === 0) return head.val;
+    // if (!head) return head;
+
+    // return getNodeValue(head.next, index - 1)
+
     for (let i = 0; i !== index; i++) {
         if (!head) {
             return head;
