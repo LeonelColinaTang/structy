@@ -20,6 +20,16 @@ const reverseList = (head) => {
     return prev;
 };
 
+//Solved with recursion
+// const reverseList = (head, prev = null) => {
+//     if (head === null) return prev;
+//     let next = head.next;
+//     head.next = prev;
+
+//     return reverseList(next, head);
+// };
+
+
 const a = new Node("a");
 const b = new Node("b");
 const c = new Node("c");
